@@ -15,7 +15,15 @@ dtiDigital ➜ ~/source/my-repo (main) $
 
 ## Install
 
-From Git Bash:
+From Git Bash, in one line (no clone needed; the script downloads everything it uses):
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/eduardo-lima-dti/oh-my-zsh-windows-config/main/install.sh | bash
+```
+
+Options go before `bash`, e.g. `curl -fsSL <url> | OMZ_PLUGINS="git docker" bash`.
+
+Or clone and run it:
 
 ```bash
 git clone https://github.com/eduardo-lima-dti/oh-my-zsh-windows-config.git
